@@ -37,7 +37,7 @@ This project is a data processing pipeline for downloading, extracting, and proc
 Run the Luigi pipeline with the following command:
 
 ```sh
-luigi --module geo_data_pipeline ProcessProbes --local-scheduler
+python geo_data_pipeline.py ProcessProbes --local-schedule
 ```
 
 This command will execute all tasks in the pipeline, starting with downloading the dataset, extracting and processing it, and finally processing the probe data.
