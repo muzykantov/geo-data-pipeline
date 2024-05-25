@@ -1,0 +1,43 @@
+# Python
+*.py[cod]
+*.so
+*.egg
+*.egg-info
+dist
+build
+__pycache__
+*.pyc
+
+# Luigi
+luigi.cfg
+luigi_logs/
+
+# Data files
+data/
+*.tar
+*.gz
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv/
+.Python
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Misc
+*.log
+*.bak
+*.tmp
